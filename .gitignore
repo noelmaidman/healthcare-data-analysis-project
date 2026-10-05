@@ -1,0 +1,13 @@
+# Virtual Environment
+venv/
+
+# Data files (never commit raw data)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and keys (BigQuery credentials)
+*.json
