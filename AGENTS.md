@@ -44,7 +44,8 @@ Keep it proportionate: a one-line fix needs a two-sentence plan, a new pipeline 
 - **Never commit large or raw data.** Keep `.gitignore` covering generated data, Parquet outputs, and zip archives. Do not commit anything over 100MB.
 - **No secrets in the repo.** Cloud credentials and keys stay out of git.
 - **Data is synthetic.** Never present findings as real clinical evidence. Say so in write-ups and the README.
-- **Document as we go.** Update the README and data dictionary when a stage is completed, in language the developer can later reuse in interviews.
+- **Keep the README up to date.** `README.md` must always reflect the current state of the project. Whenever a change affects it, update it in the same piece of work, not later. This includes: new or changed scripts and pipeline stages, setup and run instructions, project structure, tools and dependencies, results and key findings, and completed steps of the plan. Before finishing any task, check whether the README is still accurate. The README is written in English (see Communication). Briefly tell the developer (in Hebrew) what was changed in it.
+- **Document as we go.** Update the data dictionary when a stage is completed, in language the developer can later reuse in interviews.
 
 ## Git
 
