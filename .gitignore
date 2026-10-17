@@ -11,3 +11,8 @@ __pycache__/
 
 # Secrets and keys (BigQuery credentials)
 *.json
+
+gcp_key.json
+
+# Raw data archives
+*.zip
